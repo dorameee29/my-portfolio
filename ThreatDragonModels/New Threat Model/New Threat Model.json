@@ -21,46 +21,6 @@
         "cells": [
           {
             "position": {
-              "x": 431.9999999999993,
-              "y": 130.00000000000261
-            },
-            "size": {
-              "width": 800,
-              "height": 420
-            },
-            "attrs": {
-              "label": {
-                "text": "Trust Boundary"
-              }
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "aa6a4c69-dad1-4fdf-888e-39b31ae8aa09",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "bad9c9bc-d56c-48bd-9c06-52095a90d6b9",
-                "f8d7d34a-872d-4c89-8b8b-d89a2b67c18d",
-                "861c112d-297a-4683-986c-4bc61338d634",
-                "fa327292-5f91-4cf5-a28c-6371c2fffe1a",
-                "b21b458a-d2bc-402a-b681-50eccf4effec"
-              ],
-              "containedElements": [
-                "9ea8b493-0a50-4527-9406-5250f1de6e05",
-                "b4fcc1ae-703c-4159-aa1b-f914f90bf26e",
-                "e5fe86ec-27ec-4a2e-b72b-ca671a4068bc",
-                "29e179b9-8435-4545-a4d8-ebafc5429821",
-                "03ece8bb-71a5-491e-9ad6-7f1c07ccb581"
-              ]
-            }
-          },
-          {
-            "position": {
               "x": 716.25,
               "y": 160
             },
@@ -932,17 +892,15 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "aa6a4c69-dad1-4fdf-888e-39b31ae8aa09"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Data Flow"
             ],
             "id": "bad9c9bc-d56c-48bd-9c06-52095a90d6b9",
             "source": {
-              "x": 710,
-              "y": 200
+              "x": 460,
+              "y": 340
             },
             "target": {
               "cell": "b4fcc1ae-703c-4159-aa1b-f914f90bf26e",
@@ -980,9 +938,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "aa6a4c69-dad1-4fdf-888e-39b31ae8aa09"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Data Flow"
@@ -1028,9 +984,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "aa6a4c69-dad1-4fdf-888e-39b31ae8aa09"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Data Flow"
@@ -1076,9 +1030,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "aa6a4c69-dad1-4fdf-888e-39b31ae8aa09"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Data Flow"
@@ -1170,14 +1122,12 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "aa6a4c69-dad1-4fdf-888e-39b31ae8aa09"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Data Flow"
             ],
-            "id": "b21b458a-d2bc-402a-b681-50eccf4effec",
+            "id": "ab5f4527-cd38-4635-93e4-3b8fd5d32609",
             "source": {
               "cell": "e7f69918-de06-4566-a0a0-c81009b88127",
               "port": "254edced-acc3-4e58-80a6-9a39b530a443"
